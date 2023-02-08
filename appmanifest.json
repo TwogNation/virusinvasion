@@ -1,7 +1,7 @@
 {
 	"name": "Virus_Invasion",
 	"short_name": "Virus_Invasion",
-	"description": "Fun game",
+	"description": "Funny game",
 	"start_url": "index.html",
 	"display": "fullscreen",
 	"orientation": "portrait",

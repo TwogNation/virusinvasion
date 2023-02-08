@@ -61,9 +61,11 @@ html, body, canvas {
 	content: " • ";
 }
 
-
-@font-face {
-	font-family: 'vt323-regular-webfont';
-	src: url('fonts/vt323-regular-webfont.woff2') format('woff2'), url('fonts/vt323-regular-webfont.woff') format('woff'), url('fonts/vt323-regular-webfont.ttf') format('truetype');
+/* screen reader text */
+.c3-screen-reader-text {
+	position: absolute;
+	width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
 }
-

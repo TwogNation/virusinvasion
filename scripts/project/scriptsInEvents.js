@@ -36,7 +36,7 @@ const scriptsInEvents = {
 		runtime.globalVars.webSocket.send("s:300")
 	},
 
-	async Es_game_Event69_Act17(runtime, localVars)
+	async Es_game_Event69_Act16(runtime, localVars)
 	{
 		runtime.globalVars.webSocket.close();
 	},

@@ -4429,7 +4429,6 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Acts.SetGroupActive,
 		C3.Plugins.Text.Acts.SetText,
 		C3.Plugins.System.Acts.Scroll,
-		C3.Plugins.TextBox.Acts.SetText,
 		C3.Plugins.Sprite.Acts.SetAnimSpeed,
 		C3.Plugins.System.Cnds.IsMobile,
 		C3.Plugins.Sprite.Acts.SetPos,
@@ -4495,16 +4494,15 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.NinePatch.Acts.SetPos,
 		C3.Plugins.Text.Acts.SetPos,
 		C3.Plugins.Text.Acts.SetSize,
-		C3.ScriptsInEvents.Es_game_Event69_Act17,
+		C3.ScriptsInEvents.Es_game_Event69_Act16,
 		C3.Plugins.System.Cnds.Compare,
 		C3.Plugins.Sprite.Exps.Count,
 		C3.Plugins.System.Exps.int,
 		C3.Plugins.System.Exps.tokenat,
 		C3.Plugins.System.Exps.layoutname,
-		C3.Plugins.TextBox.Acts.SetPos,
+		C3.Plugins.System.Acts.GoToLayout,
 		C3.Plugins.Touch.Cnds.OnTouchObject,
 		C3.Plugins.Audio.Acts.SetSilent,
-		C3.Plugins.System.Acts.GoToLayout,
 		C3.ScriptsInEvents.Es_buttonsAndFonts_Event13_Act1,
 		C3.Plugins.System.Acts.NextPrevLayout,
 		C3.Plugins.AJAX.Acts.Post,
@@ -4691,10 +4689,6 @@ self.C3_ExpressionFuncs = [
 		},
 		() => 544,
 		() => 960,
-		p => {
-			const v0 = p._GetNode(0).GetVar();
-			return () => v0.GetValue();
-		},
 		() => 999,
 		() => -1000,
 		() => "main",
@@ -4788,6 +4782,10 @@ self.C3_ExpressionFuncs = [
 		() => 464,
 		() => 1086,
 		() => 1664,
+		p => {
+			const v0 = p._GetNode(0).GetVar();
+			return () => v0.GetValue();
+		},
 		() => "30,30,30,30,80",
 		() => 1312,
 		p => {
@@ -4798,11 +4796,7 @@ self.C3_ExpressionFuncs = [
 		},
 		() => 672,
 		() => "Congratulation!\nLevel completed\nsuccessfully",
-		() => 314,
-		() => 980,
-		() => 774,
-		() => 864,
-		() => 224,
+		() => 2000,
 		() => "Congratulation!\nYou successfully won the game",
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();

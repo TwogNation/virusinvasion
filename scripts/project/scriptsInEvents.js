@@ -9,7 +9,7 @@ function postText(value){
 
 const scriptsInEvents = {
 
-	async Es_game_Event69_Act17(runtime, localVars)
+	async Es_game_Event69_Act14(runtime, localVars)
 	{
 		postText(runtime.globalVars.finalScore)
 		
